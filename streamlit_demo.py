@@ -12,9 +12,6 @@ llm=ChatOpenAI(model="gpt-4o")
 
 st.title("Ask Anything")
 
-with st.sidebar:
-    st.title("Provide your API key")
-
 llm = ChatOpenAI(model="gpt-4o")
 
 question = st.text_input("Enter your question")
